@@ -6,3 +6,9 @@ debug
 foo.*
 *.log
 data
+
+# docker image artifacts and nvim state
+*.tar
+*.tar.txt
+tar/
+assets/state/
